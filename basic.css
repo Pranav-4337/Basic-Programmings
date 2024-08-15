@@ -1,0 +1,131 @@
+body {
+    position: relative;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* display: flex; */
+    align-items: baseline;
+    justify-content:center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    transition: 0.5s ease;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+    
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.toggle-button {
+    left: 90%;
+    top:5% ;
+    position: absolute;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    /* margin-top: 20px; */
+}
+
+.light-mode .toggle-button i.fa-moon {
+    color: #000000;
+    
+ /* Black moon for light mode */
+}
+
+/* Dark mode icon color */
+.dark-mode .toggle-button i.fa-moon {
+    color: #ffffff;
+    
+ /* White moon for dark mode */
+}
+body h1{
+top: 1;
+display: flex;
+color: transparent;
+font-size: 3rem;
+align-items: center;justify-content: center;
+font-family:Garamond;
+background:linear-gradient(-45deg,rgb(57, 35, 35),rgb(47, 47, 96),rgb(88, 57, 57) );
+background-clip: text;
+animation: back 20s linear infinite ;
+}
+@keyframes back {
+0% {
+background-position: 0% 50%;
+opacity: 1;
+}
+25%{
+opacity: 0.7;
+}
+50%{
+background-position: 100% 50%;
+opacity: 1;
+}
+75%{
+opacity: 0.7;
+}
+100%{
+background-position:  50% 0%;
+opacity: 1;
+}
+
+}
+.light-mode .content{
+margin: 50px;
+height: max-content;
+transition: background-color 0.5s ease, color 0.5s ease;
+width: 100%;
+background-color:r#3cfcff ;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+box-shadow: rgba(56, 56, 72, 0.1) 0px 4px 16px 0px inset, rgba(39, 39, 39, 0.7) 0px 8px 32px 0px;
+
+}
+
+.light-mode .content1{
+display: flex;
+height: 250px;
+width: 250px;
+margin: 10px;
+border: 0.1px dotted black;
+background-color: #ffffff;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+font-size: 2rem;
+opacity: 0.8;
+text-decoration: none;
+color: rgb(248, 248, 248);
+box-shadow: none;
+transition: background-color 0.5s ease, color 0.5s ease;
+
+}
+.light-mode .content a{
+    display: block;
+    padding: 40% 20% 40% 20%;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    
+    text-decoration: none;
+    color: #5b5b5b;
+}
+.light-mode .content1:hover{
+    box-shadow: rgb(50, 56, 56) 3.2px 3.2px 8px 0px inset, rgb(210, 210, 210) -3.2px -3.2px 8px 0px inset;
+opacity: 1;
+
+}
+.light-mode .content1 a:hover{
+color:rgb(0, 0, 0);
+font-weight: 900;
+font-style:italic;
+}

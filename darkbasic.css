@@ -1,0 +1,127 @@
+body.dark-mode {
+    position: relative;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* display: flex; */
+    align-items: baseline;
+    justify-content:center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    transition: 0.5s ease;
+}
+
+.dark-mode .content{
+    margin: 50px;
+height: max-content;
+transition: background-color 0.5s ease, color 0.5s ease;
+width: 100%;
+background-color: rgb(36, 35, 35) ;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+box-shadow: rgba(227, 227, 255, 0.1) 0px 4px 16px 0px inset, rgba(195, 195, 195, 0.7) 0px 8px 32px 0px;
+}
+.dark-mode .content1{
+    display: flex;
+height: 250px;
+width: 250px;
+margin: 10px;
+border: 0.1px dotted rgb(255, 255, 255);
+background-color: #211e1e;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+font-size: 2rem;
+opacity: 0.8;
+text-decoration: none;
+color: rgb(58, 58, 58);
+box-shadow: none;
+transition: background-color 0.5s ease, color 0.5s ease;
+}
+.dark-mode .content a{
+    display: block;
+    padding: 40% 20% 40% 20%;
+    
+    text-decoration: none;
+    color: #c4c4c4;
+}
+.dark-mode .content1:hover{
+    box-shadow: rgb(72, 72, 72) 3.2px 3.2px 8px 0px inset, rgb(171, 162, 162) -3.2px -3.2px 8px 0px inset;
+opacity: 1;
+
+}
+.dark-mode .content1 a:hover{
+color:rgb(226, 226, 226);
+font-weight: 900;
+font-style:italic;
+}
+.dark-mode .box{
+    width: 100%;
+    height: max-content;
+    background-color: rgba(59, 59, 59, 0.686);
+    margin-top:50px;
+    margin-left: 15%;
+    margin-bottom: 15%;
+    margin-right: 15%;
+    gap: 15px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    box-shadow: rgba(167, 167, 167, 0.766) 0px 4px 16px 0px inset, rgba(165, 165, 165, 0.7) 0px 8px 32px 0px;
+}
+.dark-mode .input{
+    background-color:transparent ;
+    color: whitesmoke;
+    border:none ;
+    margin-top: 10px;
+    height: 3.8rem;
+    width: 95%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.dark-mode .select{
+    height: 2rem;
+    color: whitesmoke;
+    width: fit-content;
+    font-size: 1.7rem;
+    font-weight: 900;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.dark-mode .select option{
+    color: #ffffff;
+    background-color: #5b5b5b;
+    border: none;
+}
+.dark-mode .button{
+    position: relative;
+    background-color: transparent;
+    color: rgb(234, 234, 234);
+    height: 3rem;
+    width: 7rem;
+    font-weight: 600;
+    font-size: medium;
+    border: dotted whitesmoke 0.1px;
+    transition: ease 0.5s;
+    cursor: pointer;
+    
+}
+.dark-mode .button :hover{
+    background-color: #5b5b5b;
+    height: 4rem;
+    width: 8rem;
+    font-style: italic;
+}
+.dark-mode .output{
+    width: fit-content;
+    height: fit-content;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif
+}

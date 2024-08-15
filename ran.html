@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random number</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="lightbasic.css">
+    <link rel="stylesheet" href="darkbasic.css">
+</head>
+<body>
+    <h1 id="head"><u>RANDOM NUMBER GENERATOR</u> </h1>
+    <button class="toggle-button" onclick="toggleMode()"><i id="mode-icon" class="fas fa-sun"></i></button>
+    <div class="box">
+    <input type="text" class="input" id="min" placeholder="Enter Minimum Number">
+    <input type="text" class="input" id="max" placeholder="Enter Maximum Number">
+    <button onclick="rand()" class="button">Genrate</button>
+    <p id="randa" class="output"></p>
+    </div>
+    <script src="basic.js"></script>
+</body>
+</html>

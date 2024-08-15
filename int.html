@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Intrest</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="lightbasic.css">
+    <link rel="stylesheet" href="darkbasic.css">
+</head>
+<body>
+    <h1 id="head"><u>SIMPLE INTEREST</u> </h1>
+    <button class="toggle-button" onclick="toggleMode()"><i id="mode-icon" class="fas fa-sun"></i></button>
+    <div class="box">
+    <input type="text" class="input" id="pri" placeholder="Enter Principel Amount">
+    <input type="text" class="input" id="rate" placeholder="Enter Rate Of Interest">
+    <input type="text" class="input" id="time" placeholder="Enter Time">
+    <button onclick="interest()" class="button">Intrest</button>
+    <p id="into" class="output"></p>
+    </div>
+    <script src="basic.js"></script>
+</body>
+</html>

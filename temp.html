@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="lightbasic.css">
+    <link rel="stylesheet" href="darkbasic.css">
+</head>
+<body>
+    <h1>TEMPERATURE CONVERTER</h1>
+    <button class="toggle-button" onclick="toggleMode()"><i id="mode-icon" class="fas fa-sun"></i></button>
+    <div class="box">
+    <input type="text" class="input" id="temp" placeholder="Enter The Temperature">
+    <select name="" id="convert" onchange="place()" class="select">
+        <option value="cel"> To Farenhite</option>
+        <option value="far">To Celsius</option>
+    </select>
+    <button onclick="tempa()" id="tembut" class="button">enter</button>
+    <p id="temper" class="output"></p>
+    </div>
+    <script src="basic.js"></script>
+</body>
+</html>
